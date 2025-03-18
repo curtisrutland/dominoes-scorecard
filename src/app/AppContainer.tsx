@@ -5,7 +5,7 @@ import App from "./App";
 export default function AppContainer() {
   return (
     <Theme>
-      <GameContextProvider defaultPlayerCount={2}>
+      <GameContextProvider>
         <App />
       </GameContextProvider>
     </Theme>
